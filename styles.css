@@ -1,0 +1,233 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;700;800&display=swap');
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    letter-spacing: 5px;
+}
+.navfont{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    height: 100%;
+   }
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    letter-spacing: 5px;
+    width: 100%;
+    color: white;
+}
+.subtext {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.subtextsm {
+    font-size: 9px;
+    color: rgba(148, 148, 148, 0.5);
+}
+.bgcolor{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bg {
+    background-image: url('assets/main-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg2 {
+    background-image: url('assets/the-games-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg3 {
+    background-image: url('assets/features.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg4 {
+    background-image: url('assets/requirements.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg5 {
+    background-image: url('assets/top-score-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.bg-transparant{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-linktext {
+    color: white;
+}
+
+.marginlogo {
+    padding-right: 150px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+
+}
+.padding-colmain {
+    padding-top: 250px;
+}
+.padding-feature {
+    padding-top: 300px;
+}
+.padding-subcolmain {
+    margin-top: 60px;
+}
+
+.title{
+    font-size: 5vw;
+}
+
+.subtitle{
+    font-size: 1.5vw;
+}
+
+.buttonplaynow{
+    padding: 10px 50px;
+    margin-top: 30px;
+    border-radius: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700px;
+
+}
+
+.marginmain {
+    margin: 490px 0 30px 0;
+}
+.magin2nd {
+    margin-bottom: 500px;
+}
+.magin3rd {
+    margin-bottom: 800px;
+}
+
+.fontukuran1{
+    font-size: 20px;
+}
+.fontukuran2{
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+.carousel-indicators button {
+    height: 12px !important;
+    width: 12px !important;
+    margin: 0 10px !important;
+    border-radius: 100%;
+
+}
+.padding-corousel {
+    padding-top: 300px;
+}
+
+.list {
+    height: 20px !important;
+    width: 20px !important;
+    margin: 0 10px !important;
+    border-radius: 100%;
+}
+
+.list-features{
+    display: flex;
+    gap: 30px;
+    padding: 50px 0;
+}
+
+.list-features2nd{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.font-yellow{
+    color: gold;
+}
+
+.StepProgress {
+    position: relative;
+    padding-left: 45px;
+    list-style: none;
+  }
+  .StepProgress::before {
+    display: inline-block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 10px;
+    height: 100%;
+    border-left: 2px solid #CCC;
+  }
+  .StepProgress-item {
+    position: relative;
+    counter-increment: list;
+
+  }
+  .StepProgress-item:not(:last-child) {
+    padding-bottom: 20px;
+  }
+  .StepProgress-item::before {
+    display: inline-block;
+    content: '';
+    position: absolute;
+    left: -30px;
+    height: 100%;
+    width: 10px;
+  }
+  .StepProgress-item::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -37px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #CCC;
+    border-radius: 50%;
+    background-color: black;
+  }
+  .StepProgress-item.is-done::before {
+    border-left: 2px solid white;
+  }
+  .StepProgress-item.is-done::after {
+    font-size: 10px;
+    text-align: center;
+  }
+  .StepProgress-item.current::before {
+    border-left: 2px solid white;
+
+  }
+  .StepProgress-item.current::after {
+    content: counter(list);
+    padding-top: 1px;
+    width: 19px;
+    height: 18px;
+    top: -4px;
+    left: -40px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+    background-color: white;
+  }
+  .StepProgress strong {
+    display: block;
+  }
